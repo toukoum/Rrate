@@ -134,7 +134,6 @@ header .site-title{
 
 /* <================ Landing page =================>*/
 
-
 .main-title{
 	/*color: var(--blue-apple-text);*/
 	letter-spacing: 1.5px;
@@ -154,7 +153,32 @@ header .site-title{
 	font-size: var(--fs-1000);
 	line-height: calc(var(--fs-1000) * 1.1);
 	text-align: center;
+	position: relative;
 }
+
+
+.maintitle::after{
+	content: url('../images/forfree.png');
+	position:absolute; /*or absolute*/
+	right:-50px;
+	top:100px;
+}
+
+@media (max-width: 1040px) {	
+	.maintitle::after{
+		right: 0;
+		top: 120px;
+	}
+
+}
+
+@media (max-width: 930px) {	
+	.maintitle::after{
+		display: none;
+	}
+
+}
+
 
 .salary-input-container{
 	background: var(--light-grey-transparent);

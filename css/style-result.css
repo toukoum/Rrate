@@ -39,8 +39,6 @@ body{
 	right: 50px;
 	z-index: 2;
 	border-radius: 100%;
-	transition: all .1s ease-in-out;
-	background-color: rgba(0, 0, 0, 0.108);
 	backdrop-filter: blur(15px);
 }
 
@@ -48,9 +46,8 @@ body{
 .profileImage-wrapper img{
 	height: 80px;
 }
-
 .profileImage-wrapper:hover{
-	outline: 1px solid rgb(223, 179, 121);
+	outline: 1px solid #d7d7d7d4;
 }
 
 .price-tag{
@@ -63,9 +60,8 @@ body{
     padding: 5px 10px;
     border-radius: 5px;
     font-size: 1.25rem;
-    border: 1px solid #d7d7d70e;
-    background: rgba(0, 0, 0, 0.098);
-    backdrop-filter: blur(9.550000190734863px);
+	background-color: rgba(97, 97, 97, 0.539);
+    backdrop-filter: blur(29.550000190734863px);
 }
 
 .profileImage-wrapper:hover .price-tag{
