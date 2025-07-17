@@ -552,8 +552,8 @@ border-radius: 8px;
 	}
 }
 
-@media (max-height: 800px) {
+/*@media (max-height: 800px) {
 	.all-stars{
 		display: none;
 	}
-}
+}*/
